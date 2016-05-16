@@ -1,21 +1,25 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyc
+
+*.DS_Store
 
 # C extensions
 *.so
 
+#Bitcoin Exchange Keys
+*.key
+
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
-lib/
+#lib/
+migrations/
 lib64/
 parts/
 sdist/
@@ -38,12 +42,9 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
-.coverage.*
 .cache
 nosetests.xml
 coverage.xml
-*,cover
-.hypothesis/
 
 # Translations
 *.mo
@@ -58,5 +59,12 @@ docs/_build/
 # PyBuilder
 target/
 
-#Ipython Notebook
-.ipynb_checkpoints
+/manage.py
+/agtechapi/development.py
+
+000*.py
+development.py
+Rakefile
+
+# don't put the virtualenv in there
+/env
