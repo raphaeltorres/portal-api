@@ -2,7 +2,7 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-* [APIV2 Repo](https://bitbucket.org/agtechlabs/api-server/)
+* [APIV2 Repo](https://github.com/raphaeltorres/portal-api)
 
 ### How do I get set up? ###
 
